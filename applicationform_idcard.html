@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="table">
+             <h1>Registration Form</h1> <br>
+            <form action="">
+                <div class="formfloating">
+                    <p id="on"></p>
+                    <span id="nameerror"></span><br>
+                    <input type="text"  id="name" oninput="getName()" ><br>
+                    <label for="floatinginput">Name</label>
+               </div>
+                <div class="formfloating">
+                    <span id="emailerror"></span><br>
+                    <input type="email" class="form control" id="email" oninput="getEmail()"><br>
+                    <label for="floatingemail">Email</label>
+             </div>
+             <div class="foarmfloating">
+                <span style="color:red ;" id="phoneError"></span>
+                <input type="number" class="form control" id="phone" oninput="getphone()"><br>
+                <label for="floatingemail">Phone number</label>
+            </div>
+            <div class="foamfloating">
+                <span style="color: red;" id="passworderror"></span>
+                <input type="email" class="form control" id="password" oninput="getpassword()"><br>
+                <label for="floatingemail">Password</label>
+            </div>
+            <div class="formfloating">
+                <span style="color:red ;" id="confirmpassworderror"></span>
+                <input type="email" class="form control" id="confirmpassword" oninput="getconfirmpassword"><br>
+                <label for="floatingemail">Confirm password</label>
+            </div>
+            <div class="foarmfloating">
+                <span style="color:red ;" id="Addresserror"></span>
+                <input type="email" class="form control" id="Address" oninput="getAddress"><br>
+                <label for="floatingemail">Address</label>
+
+            </div>
+         </form>
+          </div>
+          <div class="secondform">
+            <div class="idcard">
+            <img src="IMG_20210427_083827_221.jpg" alt="" width="120px">
+            <p>Name: <span id="validatedName"></span></p>
+            <p> Email:<span id="validatedEmail"></span></p>
+            <p> Phone number:<span id="validatedPhone"></span></p>
+            <p>Address: <span id="validatedAddress"></span></p>
+            </div>
+
+          </div>
+        </div>
+    </div>
+    <script src="applicationform_idcard.js"></script>
+</body>
+</html>

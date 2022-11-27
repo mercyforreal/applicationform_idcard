@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  color: white;
+}
+.row{
+display: flex;
+ margin-left: 20%;
+ margin-top: 20px;
+}
+  
+ .table{
+  width: 50%;
+ }   
+  
+ .secondform{
+  /* border: 1px solid black; */
+  width: 40%;
+  }   
+   
+   .formfloating span{
+    color: red;
+      
+    }
+    .formfloating span{
+      position: absolute;
+      
+}
+.table{
+  border: 3px solid white;
+  background-color: purple;
+  padding-top: 50px;
+  height: 500px;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+.idcard{
+  border: 3px solid black;
+  background-color: aqua;
+  padding-top: 50px;
+  height: 400px;
+  margin: right 20px;
+}
+.table label{
+  color: white;
+}
+
+.secondform span{
+  border-bottom: 2px solid black;
+}
+  
+  
+
+
